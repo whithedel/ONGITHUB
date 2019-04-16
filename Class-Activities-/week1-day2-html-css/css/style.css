@@ -4,6 +4,7 @@ body {
     color:#333333;
     margin: 0;
     padding: 0;
+    line-heights: 1.5;
 } 
 header {
     background-color: #333333
@@ -21,9 +22,15 @@ h2 {
  width: 1024px;
  margin: 0 auto;   
 }
-#main-bio #contact-info #bio-image {
+#main-bio, #contact-info, #bio-image {
     float: left;
 }
 #bio-image {
     width: 200px;
+}
+#main-bio {
+    width: 70%;
+}
+#content-info {
+    width: 30%;
 }
