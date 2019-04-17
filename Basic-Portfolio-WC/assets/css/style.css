@@ -1,0 +1,70 @@
+
+
+header {
+    
+  margin: 0 auto;
+  
+  margin-bottom: 50px;
+    background-color:green;
+    width: 960px;
+}
+
+
+#name {
+    
+    background-color:#4aaaa5;
+    color: white;
+    font-size: 30px;
+    padding: 1em;
+    text-align: center;
+}
+
+
+#nav-elem-1 {
+
+    
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+.nav-elem a:link{
+    color:blue;
+    
+    margin: 10px;
+}
+
+
+#top-line {
+    margin: 0px auto;
+    width: 960px;
+    background-color: black;
+    padding: 1px;
+}
+
+#main-outer {
+   
+    background-color: gray;
+    border: 1px, solid, black;
+    
+    
+}
+
+main {
+    
+    
+    margin: 0px auto;
+    width: 960px;
+    
+}
+
+
+
+
+footer {
+    border-top: 3px solid #4aaaa5;
+    box-sizing: border-box;
+    text-align: center;
+    background-color:#666666;
+}
+
+
