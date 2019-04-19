@@ -1,70 +1,155 @@
 
+body {
 
+    margin: 0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    position: fixed;
+    left: 0;
+    right: 0;
+
+}
 header {
-    
-  margin: 0 auto;
-  
-  margin-bottom: 50px;
-    background-color:green;
-    width: 960px;
+
+    border-bottom: 1px solid #cccccc;
+    background: #ffffff;
+    overflow: hidden;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+
 }
 
+#section-header {
+
+    width: 960px;
+    margin: 0px auto;
+    overflow: hidden;
+
+}
 
 #name {
-    
-    background-color:#4aaaa5;
-    color: white;
-    font-size: 30px;
-    padding: 1em;
-    text-align: center;
+
+    float: left;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 22px;
+    margin: 0px;
+
 }
 
+.nav-elem-1 {
 
-#nav-elem-1 {
+    float: right;
+    list-style-type: none;
+    padding: 10px;
 
-    
-    margin-left: 400px;
-    margin-top: 50px;
 }
 
-.nav-elem a:link{
-    color:blue;
-    
-    margin: 10px;
+.nav-elem-1 li {
+
+    display: inline-block;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+
 }
 
+.nav-elem-1 li a:link {
 
-#top-line {
-    margin: 0px auto;
-    width: 960px;
-    background-color: black;
-    padding: 1px;
+    color: #777777;
+
+}
+
+.nav-elem-1 li a:visited {
+
+    color: #777777;
+}
+
+.nav-dash { 
+
+    color:#777777;
+
 }
 
 #main-outer {
-   
-    background-color: gray;
-    border: 1px, solid, black;
-    
-    
+
+    width: 100%;
+    height: 1000px;
+    background-image: url(../images/nice_snow_@2X.png);
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 90px;
+
 }
 
-main {
-    
-    
-    margin: 0px auto;
+#main-section {
+
+    background-color: #ffffff;
     width: 960px;
+    overflow: hidden;
+    margin: 0px auto;
+    border: 1px solid #dddddd;
+    height: 550px;
+    overflow: scroll;
     
 }
 
+h1 {
 
+    margin: 30px 20px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
 
-
-footer {
-    border-top: 3px solid #4aaaa5;
-    box-sizing: border-box;
-    text-align: center;
-    background-color:#666666;
 }
 
+hr {
 
+    margin: 0px 20px 20px 20px;
+    border: 1px solid #dddddd;
+
+}
+
+#profile-photo-link {
+
+    margin: 30px 20px;
+    float: left;
+    /* overflow: hidden; */
+    
+}
+
+#profile-photo {
+
+    height: 240px;
+    border-radius: 50%;
+        
+
+}
+
+.paragraph {
+
+    padding: 10px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 200%;
+
+}
+
+.footer {
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    background-color: #666666;
+    width: 100%;
+    border-top: 8px solid #4aaaa5;
+    height: 45px;
+}
+
+#footer-elem {
+
+    text-align: center;
+    font-size: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 50%;
+    color: rgb(174 181 181)	;
+}
