@@ -109,7 +109,7 @@ hr {
 
 #profile-photo-link {
 
-    margin: 30px 20px;
+    margin: 20px 20px;
     float: left;
     /* overflow: hidden; */
     
@@ -119,8 +119,8 @@ hr {
 
     height: 240px;
     border-radius: 50%;
-        
-
+    /* border-image: 2px solid black; */
+    /* border-image-width: 5px */
 }
 
 .paragraph {
@@ -153,3 +153,12 @@ hr {
     right: 50%;
     color: rgb(174 181 181)	;
 }
+
+img {
+    padding:2px;
+    border:2px solid #021a40;
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19); 
+ }
+
+ 
