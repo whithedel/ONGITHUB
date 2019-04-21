@@ -49,18 +49,22 @@ header {
     font-size: 15px;
     padding-left: 10px;
     padding-right: 10px;
+    
 
 }
 
 .nav-elem-1 li a:link {
 
     color: #777777;
+    text-decoration: none;
 
 }
 
 .nav-elem-1 li a:visited {
 
     color: #777777;
+    text-decoration: none;
+
 }
 
 .nav-dash { 
@@ -89,7 +93,7 @@ header {
     border: 1px solid #dddddd;
     height: 550px;
     overflow: scroll;
-    
+    /* padding: 10px 20px; */
 }
 
 h1 {
@@ -129,6 +133,9 @@ hr {
     letter-spacing: 1px;
     word-spacing: 3px;
     line-height: 200%;
+    margin-inline-start: 1em;
+    margin-inline-end: 1em;
+    
 
 }
 
@@ -162,3 +169,61 @@ img {
  }
 
  
+
+ 
+
+ /* COntact style sheet */
+
+ #main-section-contact {
+
+    height: 580px !important;
+    margin: 0px auto !important;
+    padding: 1000px !important;
+ }
+
+ form {
+
+    widows: 960px;
+    margin: auto;
+ }
+
+ h2 {
+
+     font-size: 15px;
+     font-weight: normal;
+     margin-left: 20px;
+
+ }
+
+ textarea {
+
+    width: 915px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 12px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+ }
+
+ #text-message {
+
+    height: 151px;
+ }
+
+ #contact-button {
+
+    margin: 15px 20px;
+
+ }
+
+ form button {
+ 
+    background-color: #4aaaa5;
+    padding: 10px;
+    width: 120px;
+    color: #ffffff;
+    font-size: 20px;
+    margin: 10px 20px;
+
+ }
