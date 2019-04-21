@@ -222,3 +222,45 @@ img {
     margin: 10px 20px;
 
  }
+
+
+
+ /* porfolio style sheet */
+/* .pic-placement {
+    float: left;
+} */
+
+ .port-pic {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+    width:  296px;
+    height: 296px;
+    margin: auto 30px 30px  20px;
+    overflow: hidden;
+ }
+
+ .port-pic-elem {
+    width:  296px;
+    height: 296px;
+    margin: 20px;
+    border: 0;
+    margin: auto;
+
+ }
+
+h3 {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 296px;
+    font-weight: 300;
+    padding: 20px;
+    color: #ffffff;
+    background: #4aaaa5;
+    margin: auto auto auto 22px;
+    
+}
+
